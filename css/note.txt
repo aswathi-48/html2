@@ -1,0 +1,71 @@
+transform
+Purpose: HTML element rotate, scale, skew, or move cheyyan use cheyyunnu.
+
+Common functions:
+
+translate(): move cheyyan
+
+rotate(): thirikkuka
+
+scale(): valuthakkuka/chiruthakkuka
+
+skew(): corner-ukal change aakan
+
+example:
+.box {
+  transform: rotate(45deg); /* box 45 degree thirikkum */
+}
+
+
+translate
+translateX(n): X-axis-il move cheyyum
+
+translateY(n): Y-axis-il move cheyyum
+
+Example:
+.box {
+  transform: translate(50px, 20px); 
+}
+
+animation
+Purpose: Element-inte style gradually change cheyyan
+
+Work cheyyan @keyframes use cheyyum
+
+Animate cheyyunnath style values aayirikkum (color, position, size etc.)
+
+Example:
+.box {
+  animation: moveBox 2s infinite;
+}
+
+@keyframes moveBox {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(200px); }
+}
+
+
+What is a CSS Preprocessor?
+Manglish: CSS preprocessor ennu parayunnathu oru tool aanu.
+Ithu nammal ezhuthunna CSS code ne more powerful, reusable aakki tharum.
+Pinnae compiler athine regular CSS aakki browser-il kodukkum.
+
+Why use?
+Variables vech code reusable aakuka
+
+Nesting vech readable aakuka
+
+Mixins, functions vech logic add cheyyuka
+
+
+Example using SCSS (SASS)
+$main-color: blue;
+
+.container {
+  background: $main-color;
+  
+  .box {
+    color: white;
+    padding: 10px;
+  }
+}

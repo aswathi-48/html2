@@ -1,0 +1,10 @@
+$maincolor: red;
+$bgcolor: #e74848;
+
+body {
+  background-color: $bgcolor;
+}
+
+h1, h2, h3 {
+  color: $maincolor;
+}

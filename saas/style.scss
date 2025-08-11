@@ -1,0 +1,30 @@
+// Variables
+$primary-color: #007bff;
+$text-color: #fff;
+$padding: 20px;
+
+// Mixin
+@mixin rounded {
+  border-radius: 10px;
+}
+
+.card {
+  background-color: $primary-color;
+  color: $text-color;
+  padding: $padding;
+  @include rounded;
+
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .card-body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}

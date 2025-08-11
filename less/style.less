@@ -1,0 +1,31 @@
+// Variables
+@primary-color: #28a745;
+@text-color: #ffffff;
+@padding: 20px;
+
+// Mixin
+.rounded {
+  border-radius: 10px;
+}
+
+// Nesting + Use of variables and mixins
+.card {
+  background-color: @primary-color;
+  color: @text-color;
+  padding: @padding;
+  .rounded();
+
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .card-body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  &:hover {
+    background-color: darken(@primary-color, 10%);
+  }
+}

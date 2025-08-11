@@ -1,0 +1,19 @@
+*{
+    /* background-color: aqua;  */
+}
+.head1{
+    color: blue;
+}
+.head2{
+    color: rgb(225, 64, 64);
+}
+#id1{
+    color: blueviolet;
+}
+
+h4, h5 {
+    color: brown;
+}
+div p {
+    color: blue;
+}

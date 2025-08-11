@@ -1,0 +1,89 @@
+
+ <!-- 1. [attribute] -->
+  <!-- Select all elements with a specific attribute -->
+
+<!-- <style>
+  input[required] {
+    border: 2px solid red;
+  }
+</style>
+
+<form>
+  <input type="text" placeholder="Optional Field">
+  <input type="text" required placeholder="Required Field">
+</form> -->
+
+ <!-- 2. [attribute="value"] -->
+  <!-- Match exact attribute value -->
+
+ <!-- <style>
+  input[type="email"] {
+    background-color: yellow;
+  }
+</style>
+
+<input type="text" placeholder="Name">
+<input type="email" placeholder="Email"> -->
+
+ <!-- 3. [attribute~="value"] -->
+  <!-- Match one word in space-separated list -->
+
+  <!-- <style>
+  div[class~="alert"] {
+    color: red;
+    font-weight: bold;
+  }
+</style>
+
+<div class="alert warning">This is a warning!</div>
+<div class="box alert">This is also alert</div>
+<div class="box">Normal box</div> -->
+
+<!-- 4. [attribute|="value"] -->
+ <!-- Match exact word or word with hyphen after -->
+<!-- 
+ <style>
+  html[lang|="en"] {
+    font-family: Arial;
+    background: #eef;
+  }
+</style>
+
+<html lang="en-US">
+  <body>Text in English</body>
+</html> -->
+
+
+<!-- 5. [attribute^="value"] -->
+
+<!-- <style>
+  a[href^="https"] {
+    color: green;
+  }
+</style>
+
+<a href="https://google.com">Secure Link</a>
+<a href="http://example.com">Non-Secure Link</a> -->
+
+ <!-- 6. [attribute$="value"] -->
+<!-- 
+ <style>
+  img[src$=".png"] {
+    border: 2px solid blue;
+  }
+</style>
+
+<img src="logo.png" width="100">
+<img src="photo.jpg" width="100"> -->
+
+ <!-- 7. [attribute*="value"] -->
+<!-- Contains (anywhere inside) nammal kodukkunna value evideyoke ano ullath athin style apply aavum -->
+
+ <style>
+  a[href*="login"] {
+    background-color: lightblue;
+  }
+</style>
+
+<a href="/user-login">Login Here</a>
+<a href="/dashboard">Dashboard</a>

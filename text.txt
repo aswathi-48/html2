@@ -1,0 +1,39 @@
+ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora mollitia fugit quod, adipisci harum dolor alias sequi sapiente ex quas vero! Asperiores architecto quam exercitationem itaque quia, ipsa reprehenderit temporibus quasi pariatur qui praesentium, quo corrupti autem. Blanditiis, aliquid ex nesciunt eveniet, aperiam possimus, atque perspiciatis alias assumenda deserunt repellat doloribus quidem eaque. Veniam a, laudantium eligendi cupiditate assumenda fugit eum doloribus veritatis consequuntur aspernatur similique quis ex expedita voluptatibus, suscipit aliquam accusantium. Neque sunt molestiae temporibus modi, quas excepturi hic ipsa exercitationem, ab veritatis assumenda commodi voluptates porro laudantium. Velit totam sunt quibusdam non placeat, aperiam cupiditate eos in?
+
+
+ form target attribute- form submit cheyyumbo result print evide cheyyanam ennoke kodukkan use aakunnu.
+
+ <form action="https://example.com" method="GET" target="_blank">
+  <input type="submit" value="Submit">
+</form>
+
+
+1._self
+👉 Ithu default value aanu.
+👉 Form submit cheyyumbo athe page thanne result kaanikkum.
+✅ Udaharanam: Nee oru form fill cheythittu submit cheyyumbo, result athe page il thanne varum.
+
+2. _blank
+👉 Form submit cheyyumbo puthiya tab open cheyyum.
+✅ Udaharanam: Google form submit cheytha pole, new tab open aayi thank you message kaanikkum.
+
+3._parent
+👉 If page frames il aanu, appol parent frame il thanne result kaanikkum.
+✅ Udaharanam: Ithu nammal athyavashyam use cheyyilla, mostly frame-based sites aanu ithil upayogikkunnathu.
+
+4._top
+👉 Ella frames ignore cheythu, full screen/browser window il result kaanikkum.
+✅ Udaharanam: Frame il open aayittulla form ninnu purathe browser window full aayi open cheyyan use cheyyum.
+
+
+Seminar  topics
+
+units 
+z index
+animation
+transition
+transform
+oppacity
+
+
+

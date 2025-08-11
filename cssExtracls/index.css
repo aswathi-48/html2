@@ -1,0 +1,17 @@
+h2{
+    color: blue;
+}
+.head{
+    color: blueviolet;
+}
+#main{
+    color: aqua;
+}
+/* *{
+    background-color: aquamarine;
+    color: brown;
+} */
+
+h3,h4{
+    color: blue;
+}

@@ -1,0 +1,53 @@
+.container{
+    border: 2px solid ;
+    height: 330px;
+    width: 390px;
+    margin: auto;
+    position: relative;
+    
+}
+
+.div1{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    margin: 5px;
+    /* position: static;
+    top: 30px;
+    left: 30px; */
+    /* position: relative;
+    top: 55px;
+    left: 100px; */
+}
+
+.div2{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: 5px;
+    /* position: absolute;
+    top: 50px;
+    left: 100px; */
+}
+
+.div3{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 5px;
+    /* position: fixed;
+    top: 100px;
+    left: 200px; */
+}
+
+.div4{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(184, 6, 190);
+    margin: 5px;
+}
+
+h3{
+    position: sticky;
+    top: 0px;
+}
